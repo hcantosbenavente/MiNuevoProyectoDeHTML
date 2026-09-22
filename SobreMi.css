@@ -54,7 +54,8 @@ body {
     border-radius: 25px;
     padding: 10px;
     color: aliceblue;
-    background-color: red;
+    background-color: rgba(68, 136, 240, 0.733);
+    border-color: rgba(68, 137, 240, 0.411);
 }
 
 a {
