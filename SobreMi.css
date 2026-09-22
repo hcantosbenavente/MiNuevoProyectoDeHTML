@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding-top: 76px;
+}
+
 .barraNavegacion{
     position: fixed;
     top: 0;
@@ -7,8 +12,8 @@
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    /*justify-content: space-between;*/
 
     padding: 0 30px;
     box-sizing: border-box;
@@ -21,15 +26,28 @@
 
 .contentBar{
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
     padding: 0 15px;
-    top: 20px;
+}
+
+.barraNavegacion > div {
+    display: flex;
     align-items: center;
 }
 
+.barraNavegacion > div:first-child,
+.barraNavegacion .linkBar,
+.barraNavegacion .contenedorHorario a {
+    transition: transform 0.2s ease;
+}
+
+.barraNavegacion > div:first-child:hover,
+.barraNavegacion .linkBar:hover,
+.barraNavegacion .contenedorHorario a:hover {
+    transform: scale(1.1);
+}
+
 .linkBar{
-    position: fixed;
-    left: 92%;
+    margin-left: auto;
 }
 
 .bottonBar{
@@ -45,12 +63,12 @@ a {
 }
 
 .horarioBar {
-    position: fixed;
-    text-align: center;
-    top: 20px;
+    display: block;
+    padding: 10px 15px;
 }
 
 .contenedorHorario{
-    margin: 0 auto;
-    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
