@@ -75,7 +75,6 @@ td:hover {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
 
     padding: 0 30px;
     box-sizing: border-box;
@@ -84,4 +83,35 @@ td:hover {
     z-index: 1000;
 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contentBar{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    padding: 0 15px;
+    top: 20px;
+    align-items: center;
+}
+
+.linkBar{
+    position: fixed;
+    left: 92%;
+}
+
+.bottonBar{
+    border-radius: 25px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: red;
+}
+
+.horarioBar {
+    position: fixed;
+    align-items: center;
+    top: 20px;
+}
+
+.contenedorHorario{
+    margin: 0 auto;
+    width: 0 auto;
 }
