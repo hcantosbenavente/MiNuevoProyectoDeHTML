@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 76px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .barraNavegacion{
@@ -72,4 +73,40 @@ a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.contenedorSobreMi {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+        
+}
+
+table {
+    text-align: center;
+    border: 0px solid black;
+    margin: 0px auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 10px;
+    width: 80%;
+}
+
+td, th {
+    text-align: center;
+}
+
+/*Esta clase se encarga del segundo div que ira en la cabezera ("Hugo Cantos Benavente")*/
+.cabecera{
+    margin-right: 5px auto;
+    align-items: center;
+    
+}
+
+.imagenes {
+    margin-right: 25px;
+    margin-left: 0px auto;
+    align-items: center;
+    align-content: center;
 }
