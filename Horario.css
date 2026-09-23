@@ -61,12 +61,16 @@ th, td {
     background-color: rgb(214, 228, 139);
 }
 
+.horas {
+    background-color: aliceblue;
+}
+
 td:hover {
     transition: transform 0.2s ease;
     transform: scale(1.1);
 }
 
-.dias {
+.horas {
     background-color: aliceblue;
 }
 
